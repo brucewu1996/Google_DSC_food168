@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--1. Splash Activity-->
+        <!-- 1. Splash Activity -->
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait"
@@ -24,17 +24,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--2. Intro Activity-->
+        <!-- 2. Intro Activity -->
         <activity
             android:name=".IntroActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <!--3. Sign Up Activity-->
-        <activity android:name=".SignUpActivity"
+        <!-- 3. Sign Up Activity -->
+        <activity
+            android:name=".SignUpActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- 3. Sign In Activity -->
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
