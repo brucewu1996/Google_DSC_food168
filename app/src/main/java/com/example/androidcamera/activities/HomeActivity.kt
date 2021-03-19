@@ -1,10 +1,11 @@
-package com.example.androidcamera
+package com.example.androidcamera.activities
 
 import android.app.DatePickerDialog
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.androidcamera.R
 import kotlinx.android.synthetic.main.activity_home.*
 import java.util.*
 
