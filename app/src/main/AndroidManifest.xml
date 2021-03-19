@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".activities.BaseActivity"></activity>
         <!-- 1. Splash Activity -->
         <activity
             android:name=".activities.SplashActivity"
@@ -23,20 +23,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- 2. Intro Activity -->
+        </activity> <!-- 2. Intro Activity -->
         <activity
             android:name=".activities.IntroActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- 3. Sign Up Activity -->
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3. Sign Up Activity -->
         <activity
             android:name=".activities.SignUpActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- 3. Sign In Activity -->
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3. Sign In Activity -->
         <activity
             android:name=".activities.SignInActivity"
             android:screenOrientation="portrait"
