@@ -6,9 +6,14 @@ import android.text.TextUtils
 import android.view.WindowManager
 import android.widget.Toast
 import com.example.androidcamera.R
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.auth.AuthResult
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUpActivity : BaseActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
@@ -20,8 +25,7 @@ class SignUpActivity : BaseActivity() {
 
         setupActionBar()
 
-        // Click event for sign-up button.
-        btn_sign_up.setOnClickListener{
+        btn_sign_up.setOnClickListener {
             registerUser()
         }
     }
@@ -39,19 +43,41 @@ class SignUpActivity : BaseActivity() {
         toolbar_sign_up_activity.setNavigationOnClickListener { onBackPressed() }
     }
 
-
-    private fun registerUser(){
+    private fun registerUser() {
         val name: String = et_name.text.toString().trim { it <= ' ' }
         val email: String = et_email.text.toString().trim { it <= ' ' }
         val password: String = et_password.text.toString().trim { it <= ' ' }
 
         if (validateForm(name, email, password)) {
+            showProgressDialog(resources.getString(R.string.please_wait))
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(
+                    OnCompleteListener<AuthResult> { task ->
 
-            Toast.makeText(
-                this@SignUpActivity,
-                "Now we can register a new user.",
-                Toast.LENGTH_SHORT
-            ).show()
+                        hideProgressDialog()
+
+                        if (task.isSuccessful) {
+
+                            val firebaseUser: FirebaseUser = task.result!!.user!!
+                            val registeredEmail = firebaseUser.email!!
+
+                            Toast.makeText(
+                                this,
+                                "$name you have successfully registered with email id $registeredEmail.",
+                                Toast.LENGTH_SHORT
+                            ).show()
+
+                            FirebaseAuth.getInstance().signOut()
+
+                            finish()
+                        } else {
+                            Toast.makeText(
+                                this,
+                                task.exception!!.message,
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+                    })
         }
     }
 
