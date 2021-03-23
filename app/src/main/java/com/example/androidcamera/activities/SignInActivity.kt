@@ -9,6 +9,8 @@ import android.widget.Toast
 import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivitySignInBinding
 import com.example.androidcamera.databinding.ActivitySignUpBinding
+import com.example.androidcamera.firebase.FirestoreClass
+import com.example.androidcamera.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -65,14 +67,7 @@ class SignInActivity : BaseActivity() {
                 .addOnCompleteListener { task ->
                     hideProgressDialog()
                     if (task.isSuccessful) {
-
-                        Toast.makeText(
-                            this@SignInActivity,
-                            "You have successfully signed in.",
-                            Toast.LENGTH_LONG
-                        ).show()
-
-                        startActivity(Intent(this@SignInActivity, MainActivity::class.java))
+                        FirestoreClass().signInUser(this@SignInActivity)
                     } else {
                         Toast.makeText(
                             this@SignInActivity,
@@ -94,5 +89,11 @@ class SignInActivity : BaseActivity() {
         } else {
             true
         }
+    }
+
+    fun signInSuccess(user: User) {
+        hideProgressDialog()
+        startActivity(Intent(this@SignInActivity, MainActivity::class.java))
+        finish()
     }
 }
