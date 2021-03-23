@@ -7,18 +7,25 @@ import android.text.TextUtils
 import android.view.WindowManager
 import android.widget.Toast
 import com.example.androidcamera.R
+import com.example.androidcamera.databinding.ActivitySignInBinding
+import com.example.androidcamera.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.activity_sign_in.*
+//import kotlinx.android.synthetic.main.activity_sign_in.*
+
 
 class SignInActivity : BaseActivity() {
 
     private lateinit var auth: FirebaseAuth
+    private lateinit var binding: ActivitySignInBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_in)
+//        setContentView(R.layout.activity_sign_in)
+
+        binding = ActivitySignInBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         auth = Firebase.auth
 
@@ -27,7 +34,7 @@ class SignInActivity : BaseActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
-        btn_sign_in.setOnClickListener {
+        binding.btnSignIn.setOnClickListener {
             signInRegisteredUser()
         }
 
@@ -36,7 +43,7 @@ class SignInActivity : BaseActivity() {
 
     private fun setupActionBar() {
 
-        setSupportActionBar(toolbar_sign_in_activity)
+        setSupportActionBar(binding.toolbarSignInActivity)
 
         val actionBar = supportActionBar
         if (actionBar != null) {
@@ -44,12 +51,12 @@ class SignInActivity : BaseActivity() {
             actionBar.setHomeAsUpIndicator(R.drawable.ic_black_color_back_24dp)
         }
 
-        toolbar_sign_in_activity.setNavigationOnClickListener { onBackPressed() }
+        binding.toolbarSignInActivity.setNavigationOnClickListener { onBackPressed() }
     }
 
     private fun signInRegisteredUser() {
-        val email: String = et_email_signIn.text.toString().trim { it <= ' ' }
-        val password: String = et_password_signIn.text.toString().trim { it <= ' ' }
+        val email: String = binding.etEmailSignIn.text.toString().trim { it <= ' ' }
+        val password: String = binding.etPasswordSignIn.text.toString().trim { it <= ' ' }
 
         if (validateForm(email, password)) {
             showProgressDialog(resources.getString(R.string.please_wait))

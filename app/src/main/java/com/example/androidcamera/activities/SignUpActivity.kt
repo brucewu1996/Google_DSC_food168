@@ -6,17 +6,26 @@ import android.text.TextUtils
 import android.view.WindowManager
 import android.widget.Toast
 import com.example.androidcamera.R
+import com.example.androidcamera.databinding.ActivitySignUpBinding
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import kotlinx.android.synthetic.main.activity_sign_up.*
+import com.example.androidcamera.firebase.FirestoreClass
+import com.example.androidcamera.models.User
+//import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUpActivity : BaseActivity() {
 
+    private lateinit var binding: ActivitySignUpBinding
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
+//        setContentView(R.layout.activity_sign_up)
+
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -25,14 +34,13 @@ class SignUpActivity : BaseActivity() {
 
         setupActionBar()
 
-        btn_sign_up.setOnClickListener {
+        binding.btnSignUp.setOnClickListener {
             registerUser()
         }
     }
 
     private fun setupActionBar() {
-
-        setSupportActionBar(toolbar_sign_up_activity)
+        setSupportActionBar(binding.toolbarSignUpActivity)
 
         val actionBar = supportActionBar
         if (actionBar != null) {
@@ -40,13 +48,13 @@ class SignUpActivity : BaseActivity() {
             actionBar.setHomeAsUpIndicator(R.drawable.ic_black_color_back_24dp)
         }
 
-        toolbar_sign_up_activity.setNavigationOnClickListener { onBackPressed() }
+        binding.toolbarSignUpActivity.setNavigationOnClickListener { onBackPressed() }
     }
 
     private fun registerUser() {
-        val name: String = et_name.text.toString().trim { it <= ' ' }
-        val email: String = et_email.text.toString().trim { it <= ' ' }
-        val password: String = et_password.text.toString().trim { it <= ' ' }
+        val name: String = binding.etName.text.toString().trim { it <= ' ' }
+        val email: String = binding.etEmail.text.toString().trim { it <= ' ' }
+        val password: String = binding.etPassword.text.toString().trim { it <= ' ' }
 
         if (validateForm(name, email, password)) {
             showProgressDialog(resources.getString(R.string.please_wait))
@@ -54,25 +62,20 @@ class SignUpActivity : BaseActivity() {
                 .addOnCompleteListener(
                     OnCompleteListener<AuthResult> { task ->
 
-                        hideProgressDialog()
-
                         if (task.isSuccessful) {
 
                             val firebaseUser: FirebaseUser = task.result!!.user!!
                             val registeredEmail = firebaseUser.email!!
 
-                            Toast.makeText(
-                                this,
-                                "$name you have successfully registered with email id $registeredEmail.",
-                                Toast.LENGTH_SHORT
-                            ).show()
+                            val user = User(
+                                firebaseUser.uid, name, registeredEmail
+                            )
 
-                            FirebaseAuth.getInstance().signOut()
+                            FirestoreClass().registerUser(this@SignUpActivity, user)
 
-                            finish()
                         } else {
                             Toast.makeText(
-                                this,
+                                this@SignUpActivity,
                                 task.exception!!.message,
                                 Toast.LENGTH_SHORT
                             ).show()
@@ -99,5 +102,17 @@ class SignUpActivity : BaseActivity() {
                 true
             }
         }
+    }
+
+    fun userRegisteredSuccess() {
+        Toast.makeText(
+            this@SignUpActivity,
+            "You have successfully registered.",
+            Toast.LENGTH_SHORT
+        ).show()
+
+        hideProgressDialog()
+        FirebaseAuth.getInstance().signOut()
+        finish()
     }
 }

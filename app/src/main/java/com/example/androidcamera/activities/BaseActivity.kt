@@ -7,11 +7,16 @@ import android.os.Handler
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.example.androidcamera.R
+//import kotlinx.android.synthetic.main.dialog_progress.*
+import com.example.androidcamera.databinding.DialogProgressBinding
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.dialog_progress.*
+
 
 open class BaseActivity : AppCompatActivity() {
+
+    private lateinit var binding: DialogProgressBinding
+
     private var doubleBackToExitPressedOnce = false
 
     private lateinit var mProgressDialog: Dialog
@@ -23,11 +28,12 @@ open class BaseActivity : AppCompatActivity() {
     fun showProgressDialog(text: String) {
         mProgressDialog = Dialog(this)
 
-        /*Set the screen content from a layout resource.
-        The resource will be inflated, adding all top-level views to the screen.*/
-        mProgressDialog.setContentView(R.layout.dialog_progress)
+//        mProgressDialog.setContentView(R.layout.dialog_progress)
 
-        mProgressDialog.tv_progress_text.text = text
+        binding = DialogProgressBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.tvProgressText.text = text
 
         //Start the dialog and display it on screen.
         mProgressDialog.show()

@@ -13,10 +13,13 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.Toast
 import com.example.androidcamera.R
-import kotlinx.android.synthetic.main.camera_layout.*
+import com.example.androidcamera.databinding.CameraLayoutBinding
+//import kotlinx.android.synthetic.main.camera_layout.*
 import java.io.File
 
 class CameraActivity : AppCompatActivity() {
+
+    private lateinit var binding: CameraLayoutBinding
 
     //constant
     companion object {
@@ -30,9 +33,12 @@ class CameraActivity : AppCompatActivity() {
     //@RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.camera_layout)
+//        setContentView(R.layout.camera_layout)
 
-        btnTakePhoto.setOnClickListener {
+        binding = CameraLayoutBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.btnTakePhoto.setOnClickListener {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
                 if (checkSelfPermission(Manifest.permission.CAMERA)==PackageManager.PERMISSION_DENIED){
                     val permissions = arrayOf(Manifest.permission.CAMERA)
@@ -46,7 +52,7 @@ class CameraActivity : AppCompatActivity() {
 
         }
 
-        btnChoosePhoto.setOnClickListener {
+        binding.btnChoosePhoto.setOnClickListener {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
                 if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)==PackageManager.PERMISSION_DENIED){
                     val permissions = arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE)
@@ -109,7 +115,7 @@ class CameraActivity : AppCompatActivity() {
         //take picture
         if(requestCode == TAKE_PIC && resultCode == Activity.RESULT_OK){
             val takenPhoto = BitmapFactory.decodeFile(filePhoto.absolutePath)
-            viewImage.setImageBitmap(takenPhoto)
+            binding.viewImage.setImageBitmap(takenPhoto)
         }
         //choose picture from album
         else {
@@ -118,7 +124,7 @@ class CameraActivity : AppCompatActivity() {
 
         if(requestCode == TAKE_PIC || requestCode == IMAGE_CHOOSE && resultCode == Activity.RESULT_OK){
             //var imageUri = data.data
-            viewImage.setImageURI(data?.data)
+            binding.viewImage.setImageURI(data?.data)
         }else{
             Toast.makeText(this,"連個相機都不會寫，可憐啊",Toast.LENGTH_SHORT).show()
         }
