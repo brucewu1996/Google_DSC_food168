@@ -9,6 +9,7 @@ import android.view.*
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBar
+import androidx.fragment.app.Fragment
 import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -46,6 +47,9 @@ class MainActivity : AppCompatActivity() {
         //nav
         toolbar = supportActionBar!!
         val bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
+
+        //fragment setting
+        class FragmentHome : Fragment(R.layout.fragment_home)
     }
 
     private fun clickDatePicker(view: View) {
