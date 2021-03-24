@@ -10,8 +10,10 @@ import android.view.WindowInsets
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.ActionBar
 import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
 
 //import kotlinx.android.synthetic.main.activity_main.*
@@ -19,6 +21,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    lateinit var toolbar: ActionBar
 
     @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,13 +39,40 @@ class MainActivity : AppCompatActivity() {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
-        binding.coverBtnNext.setOnClickListener {
-            val intent = Intent(this, CameraActivity::class.java)
-            startActivity(intent)
+//        binding.coverBtnNext.setOnClickListener {
+//            val intent = Intent(this, CameraActivity::class.java)
+//            startActivity(intent)
+//        }
+//
+//        binding.btnDatePicker.setOnClickListener { view ->
+//            clickDatePicker(view)
+//        }
+
+        //nav
+        toolbar = supportActionBar!!
+        val bottomNavigation: BottomNavigationView = binding.navigationView
+
+        val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.navigation_scan -> {
+
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.navigation_home -> {
+
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.navigation_profile -> {
+
+                    return@OnNavigationItemSelectedListener true
+                }
+            }
+            false
         }
 
-        binding.btnDatePicker.setOnClickListener { view ->
-            clickDatePicker(view)
+        fun onCreate(savedInstanceState: Bundle?) {
+            // ...
+            bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         }
     }
 
