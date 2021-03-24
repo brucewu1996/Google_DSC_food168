@@ -5,9 +5,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.view.WindowInsets
-import android.view.WindowManager
+import android.view.*
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBar
@@ -15,8 +13,6 @@ import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
-
-//import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,7 +22,6 @@ class MainActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -50,30 +45,7 @@ class MainActivity : AppCompatActivity() {
 
         //nav
         toolbar = supportActionBar!!
-        val bottomNavigation: BottomNavigationView = binding.navigationView
-
-        val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.navigation_scan -> {
-
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.navigation_home -> {
-
-                    return@OnNavigationItemSelectedListener true
-                }
-                R.id.navigation_profile -> {
-
-                    return@OnNavigationItemSelectedListener true
-                }
-            }
-            false
-        }
-
-        fun onCreate(savedInstanceState: Bundle?) {
-            // ...
-            bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
-        }
+        val bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
     }
 
     private fun clickDatePicker(view: View) {
