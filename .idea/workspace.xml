@@ -36,12 +36,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/SignInActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/SignInActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/firebase/FirestoreClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/firebase/FirestoreClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/models/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/models/User.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,30 +218,30 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="391" y="221" key="Downloadable.Font.Dialog.Size/0.25.1440.875@0.25.1440.875" timestamp="1616060903677" />
-    <state width="1398" height="286" key="GridCell.Tab.0.bottom" timestamp="1616492150768">
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1616561265361">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
-    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616492150768" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1616218838299" />
-    <state width="1398" height="286" key="GridCell.Tab.0.center" timestamp="1616492150766">
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916410" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1616561265361" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1616561265360">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615650137328" />
-    <state width="1398" height="286" key="GridCell.Tab.0.center/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616492150766" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1616218838297" />
-    <state width="1398" height="286" key="GridCell.Tab.0.left" timestamp="1616492150765">
+    <state width="1398" height="286" key="GridCell.Tab.0.center/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1616561265360" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1616561265360">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615650137317" />
-    <state width="1398" height="286" key="GridCell.Tab.0.left/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616492150765" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1616218838296" />
-    <state width="1398" height="286" key="GridCell.Tab.0.right" timestamp="1616492150767">
+    <state width="1398" height="286" key="GridCell.Tab.0.left/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916408" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1616561265360" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1616561265360">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
-    <state width="1398" height="286" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616492150767" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1616218838298" />
+    <state width="1398" height="286" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1616561265360" />
     <state x="221" y="98" key="SettingsEditor" timestamp="1616486528617">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

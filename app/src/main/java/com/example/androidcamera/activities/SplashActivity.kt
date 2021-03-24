@@ -8,7 +8,6 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivitySplashBinding
-import com.example.androidcamera.databinding.DialogProgressBinding
 import com.example.androidcamera.firebase.FirestoreClass
 
 class SplashActivity : AppCompatActivity() {
@@ -27,9 +26,9 @@ class SplashActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
-        val typeface: Typeface =
-            Typeface.createFromAsset(assets, "carbon bl.ttf")
-        binding.tvAppName.typeface = typeface
+//        val typeface: Typeface =
+//            Typeface.createFromAsset(assets, "carbon bl.ttf")
+//        binding.tvAppName.typeface = typeface
 
         Handler().postDelayed({
             val currentUserID = FirestoreClass().getCurrentUserID()
