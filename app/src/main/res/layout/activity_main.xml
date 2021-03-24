@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@drawable/ic_bg"
     tools:context=".activities.MainActivity">
 
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/navigationView"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <Button
-        android:id="@+id/cover_btn_next"
-        android:layout_width="wrap_content"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="next"
-        android:textSize="30dp"
-        android:textColor="@color/teal_200"
-        android:background="@color/white">
-    </Button>
+        app:layout_constraintTop_toBottomOf="@id/container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/bottom_nav_item_selector"
+        app:itemTextColor="@color/bottom_nav_item_selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_navigation_menu"/>
 
-    <Button
-        android:id="@+id/btnDatePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@color/white"
-        android:text="Select Date"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:backgroundTint="@color/black" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

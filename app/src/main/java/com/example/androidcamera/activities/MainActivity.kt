@@ -5,25 +5,23 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.view.WindowInsets
-import android.view.WindowManager
+import android.view.*
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.ActionBar
 import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
-
-//import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    lateinit var toolbar: ActionBar
 
     @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -36,14 +34,18 @@ class MainActivity : AppCompatActivity() {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
-        binding.coverBtnNext.setOnClickListener {
-            val intent = Intent(this, CameraActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.coverBtnNext.setOnClickListener {
+//            val intent = Intent(this, CameraActivity::class.java)
+//            startActivity(intent)
+//        }
+//
+//        binding.btnDatePicker.setOnClickListener { view ->
+//            clickDatePicker(view)
+//        }
 
-        binding.btnDatePicker.setOnClickListener { view ->
-            clickDatePicker(view)
-        }
+        //nav
+        toolbar = supportActionBar!!
+        val bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
     }
 
     private fun clickDatePicker(view: View) {
