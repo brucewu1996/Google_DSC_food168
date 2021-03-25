@@ -94,6 +94,7 @@ class CameraActivity : AppCompatActivity() {
         permissions: Array<out String>,
         grantResults: IntArray
     ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         val permission = permissions[0]
         when(requestCode){
             PERMISSION_CODE -> {
