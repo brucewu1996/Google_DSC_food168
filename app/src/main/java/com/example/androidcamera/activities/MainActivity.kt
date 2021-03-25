@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.Fragment
+import com.example.androidcamera.HomeFragment
 import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -50,6 +51,18 @@ class MainActivity : AppCompatActivity() {
 
         //fragment setting
         class FragmentHome : Fragment(R.layout.fragment_home)
+    }
+
+    private fun addFragment(f: Fragment) {
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.add(R.id.fragment_container_view, f)
+        transaction.commit()
+    }
+
+    private fun replaceFragment(f : Fragment){
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.fragment_container_view, f)
+        transaction.commit()
     }
 
     private fun clickDatePicker(view: View) {

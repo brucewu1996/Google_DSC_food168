@@ -12,6 +12,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#C0BCB6</color>
 
+    <color name="sign_in_btn">#0A80F5</color>
+    <color name="intro_background">#E6EDF2</color>
+    <color name="sign_in_background">#F9E3E0</color>
+
     <color name="primary_text_color">#363A43</color>
     <color name="secondary_text_color">#7A8089</color>
 

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/amiko_semibold</item>
         <item>@font/bungee_shade</item>
+        <item>@font/cabin_semibold</item>
+        <item>@font/quattrocento_sans_bold</item>
+        <item>@font/roboto_mono_medium</item>
     </array>
 </resources>

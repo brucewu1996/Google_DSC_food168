@@ -28,34 +28,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1ce3da-841e-49a8-8369-55dafd0d32dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_3_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/BlankFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/acme.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/amiko_semibold.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/cabin_semibold.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/quattrocento_sans_bold.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_mono_medium.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AndroidCamera.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AndroidCamera.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/ProfileFragment.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/activities/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/shape_button_rounded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/shape_button_rounded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_border_shape_button_rounded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_border_shape_button_rounded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +84,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -98,8 +94,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-ldpi" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.example.androidcamera.activities" />
@@ -110,9 +108,8 @@
     <key name="android.template.-1097180954">
       <recent name="com.example.androidcamera" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-ldpi" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,6 +204,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="433" y="162" key="#Images" timestamp="1616650873018">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="433" y="162" key="#Images/0.25.1440.875@0.25.1440.875" timestamp="1616650873018" />
     <state x="458" y="221" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616494255455">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -216,19 +217,19 @@
     </state>
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616489718356" />
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1615887960496" />
-    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616485438652">
+    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616651150586">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616485438652" />
-    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875@0.25.1440.875" timestamp="1616059698839" />
+    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875@0.25.1440.875" timestamp="1616651150586" />
     <state x="474" y="186" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1616147312998">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="474" y="186" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1616147312998" />
-    <state x="308" y="221" key="AndroidCreateResourceDirectoryDialog" timestamp="1616576979529">
+    <state x="308" y="221" key="AndroidCreateResourceDirectoryDialog" timestamp="1616608982517">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="308" y="221" key="AndroidCreateResourceDirectoryDialog/0.25.1440.875@0.25.1440.875" timestamp="1616576979529" />
+    <state x="308" y="221" key="AndroidCreateResourceDirectoryDialog/0.25.1440.875@0.25.1440.875" timestamp="1616608982517" />
     <state x="308" y="221" key="AndroidCreateResourceFileDialog" timestamp="1616580088817">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -237,10 +238,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="542" y="261" key="AndroidCreateXmlResourceDialog/0.25.1440.875@0.25.1440.875" timestamp="1616575445510" />
-    <state x="391" y="221" key="Downloadable.Font.Dialog.Size" timestamp="1616060903677">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="248" y="-819" width="656" height="482" key="Downloadable.Font.Dialog.Size" timestamp="1616655250714">
+      <screen x="-273" y="-1055" width="1920" height="1055" />
     </state>
-    <state x="391" y="221" key="Downloadable.Font.Dialog.Size/0.25.1440.875@0.25.1440.875" timestamp="1616060903677" />
+    <state x="248" y="-819" width="656" height="482" key="Downloadable.Font.Dialog.Size/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616655250714" />
+    <state x="391" y="221" width="656" height="482" key="Downloadable.Font.Dialog.Size/0.25.1440.875@0.25.1440.875" timestamp="1616654304212" />
     <state width="699" height="174" key="GridCell.Tab.0.bottom" timestamp="1616607655276">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -265,9 +267,17 @@
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
     <state width="1398" height="286" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
     <state width="699" height="174" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1616607655275" />
+    <state x="308" y="209" key="IDE.errors.dialog" timestamp="1616651053273">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="308" y="209" key="IDE.errors.dialog/0.25.1440.875@0.25.1440.875" timestamp="1616651053273" />
     <state x="221" y="98" key="SettingsEditor" timestamp="1616486528617">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="221" y="98" key="SettingsEditor/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616486528617" />
+    <state x="472" y="340" width="618" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1616650856283">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="472" y="340" width="618" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.25.1440.875@0.25.1440.875" timestamp="1616650856283" />
   </component>
 </project>
