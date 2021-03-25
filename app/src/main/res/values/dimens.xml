@@ -36,4 +36,12 @@
     <dimen name="progress_text_marginStart">16dp</dimen>
     <dimen name="progress_text_size">16sp</dimen>
     <dimen name="progress_text_marginLeft">16dp</dimen>
+
+    <dimen name="home_text_marginTop">10dp</dimen>
+    <dimen name="home_card_kcal_margin">10dp</dimen>
+    <dimen name="home_subtitle_textSize">10sp</dimen>
+    <dimen name="home_subtitle_card_margin">3dp</dimen>
+    <dimen name="home_row_padding">10dp</dimen>
+    <dimen name="home_row_margin">10dp</dimen>
+
 </resources>

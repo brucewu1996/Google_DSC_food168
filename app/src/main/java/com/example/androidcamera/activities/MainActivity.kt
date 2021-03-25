@@ -1,7 +1,6 @@
 package com.example.androidcamera.activities
 
 import android.app.DatePickerDialog
-import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,11 +8,7 @@ import android.view.*
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBar
-import androidx.fragment.app.Fragment
-import com.example.androidcamera.HomeFragment
-import com.example.androidcamera.R
 import com.example.androidcamera.databinding.ActivityMainBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -36,33 +31,11 @@ class MainActivity : AppCompatActivity() {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
-//        binding.coverBtnNext.setOnClickListener {
-//            val intent = Intent(this, CameraActivity::class.java)
-//            startActivity(intent)
-//        }
-//
-//        binding.btnDatePicker.setOnClickListener { view ->
-//            clickDatePicker(view)
-//        }
 
-        //nav
-        toolbar = supportActionBar!!
-        val bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
+        binding.btnDatePicker.setOnClickListener { view ->
+            clickDatePicker(view)
+        }
 
-        //fragment setting
-        class FragmentHome : Fragment(R.layout.fragment_home)
-    }
-
-    private fun addFragment(f: Fragment) {
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.add(R.id.fragment_container_view, f)
-        transaction.commit()
-    }
-
-    private fun replaceFragment(f : Fragment){
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.fragment_container_view, f)
-        transaction.commit()
     }
 
     private fun clickDatePicker(view: View) {

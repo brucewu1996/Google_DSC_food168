@@ -6,7 +6,7 @@
     <string name="let_s_get_started_text">Welcome to GooNus!</string>
     <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
     <string name="sign_in">SIGN IN</string>
-    <string name="sign_up">SIGN UP</string>
+    <string name="sign_up">GET STARTED</string>
 
     <!--sign up page-->
     <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
@@ -20,7 +20,24 @@
     <!--dialog progress-->
     <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
     <string name="please_wait">Please Wait&#8230;</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Home Fragment-->
+    <string name="home_welcome">WELCOME, TING!</string>
+    <string name="home_title">Daily Records</string>
+    <string name="home_datepicker">SELECT DATE</string>
+    <string name="home_nutrition_category_good">Good Zone</string>
+    <string name="home_nutrition_category_danger">Danger Zone</string>
+    <string name="home_subtitle_nutrition_cal">KCAL</string>
+    <string name="home_subtitle_nutrition_fat">TOTAL LIPID (FAT)</string>
+    <string name="home_subtitle_nutrition_protein">PROTEIN</string>
+    <string name="home_subtitle_nutrition_carbohydrate">CARBOHYDRATE</string>
+    <string name="home_subtitle_nutrition_dietary_fiber">DIETARY FIBER</string>
+    <string name="home_subtitle_nutrition_sugars">SUGARS</string>
+    <string name="home_subtitle_nutrition_na">NA</string>
+    <string name="home_subtitle_nutrition_saturated_fatty_acids">SATURATED FATTY ACIDS</string>
+    <string name="home_subtitle_nutrition_trans_fatty_acids">TRANS FATTY ACIDS</string>
+    <string name="home_subtitle_nutrition_Cholesterol">CHOLESTEROL</string>
+
 
 </resources>
