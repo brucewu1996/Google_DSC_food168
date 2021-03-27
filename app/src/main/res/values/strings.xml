@@ -6,13 +6,33 @@
     <string name="let_s_get_started_text">Welcome to GooNus!</string>
     <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
     <string name="sign_in">SIGN IN</string>
-    <string name="sign_up">GET STARTED</string>
+    <string name="sign_up">SIGN UP</string>
 
     <!--sign up page-->
-    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
-    <string name="name">Name</string>
+    <string name="sign_up_step_1_title">GET STARTED</string>
+    <string name="sign_up_step_2_title">ENTER YOUR INFORMATION</string>
+    <string name="sign_up_step_1_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="sign_up_step_2_description_text">Let\'s get to know each other a little more… </string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="Status">Status</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="sign_up_step_1_bottom">NEXT</string>
+    <string name="sign_up_step_2_bottom">LET \'s STARTED</string>
+    <string-array name="sign_up_status_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
 
     <!--sign in page-->
     <string name="sign_in_description_text">Enter your email id and password, start your healthy life today with us.</string>

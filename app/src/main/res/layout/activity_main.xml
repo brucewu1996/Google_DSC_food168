@@ -48,7 +48,7 @@
             android:paddingTop="@dimen/btn_paddingTopBottom"
             android:paddingBottom="@dimen/btn_paddingTopBottom"
             android:fontFamily="@font/work_sans"
-            android:text="@string/sign_up"
+            android:text="select date"
             android:textColor="@color/black"
             android:textSize="@dimen/btn_text_size" />
 

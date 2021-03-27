@@ -2,14 +2,16 @@ package com.example.androidcamera.models
 
 import android.os.Parcel
 import android.os.Parcelable
-import kotlinx.parcelize.Parcelize
 
 data class User(
     val id: String = "",
-    val name: String = "",
+    val firstName: String = "",
+    val lastName: String = "",
     val email: String = "",
+    val weight: Double = 0.0,
+    val height: Double = 0.0,
+    val status: String = "",
     val image: String = "",
-    val mobile: Long = 0,
     val fcmToken: String = ""
 ) : Parcelable {
     constructor(source: Parcel) : this(
@@ -17,7 +19,10 @@ data class User(
         source.readString()!!,
         source.readString()!!,
         source.readString()!!,
-        source.readLong(),
+        source.readDouble(),
+        source.readDouble(),
+        source.readString()!!,
+        source.readString()!!,
         source.readString()!!
     )
 
@@ -25,10 +30,13 @@ data class User(
 
     override fun writeToParcel(dest: Parcel, flags: Int) = with(dest) {
         writeString(id)
-        writeString(name)
+        writeString(firstName)
+        writeString(lastName)
         writeString(email)
+        writeDouble(weight)
+        writeDouble(height)
+        writeString(status)
         writeString(image)
-        writeLong(mobile)
         writeString(fcmToken)
     }
 
