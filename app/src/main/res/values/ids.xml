@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="barcode_field_btn_nutrition_info" type="id" />
+    <item name="barcode_field_btn_input_nutrition_info" type="id" />
+</resources>
