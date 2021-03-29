@@ -36,7 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1ce3da-841e-49a8-8369-55dafd0d32dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,6 +244,10 @@
     </state>
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616489718356" />
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1615887960496" />
+    <state x="-1768" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617030203289">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-1768" y="357" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617030203289" />
     <state x="-2068" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617025746389">
       <screen x="-2560" y="0" width="2048" height="1096" />
     </state>
