@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292006584951",
+    "project_id": "food168-8eedd",
+    "storage_bucket": "food168-8eedd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292006584951:android:0a395455d578b2ae40dc72",
+        "android_client_info": {
+          "package_name": "com.example.camera_demo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292006584951-3eb74skgvqthip6nsq153lde6o9bdrt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzpac-tVfls0B0IRQfkroSe-sJnHV1UgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292006584951-3eb74skgvqthip6nsq153lde6o9bdrt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

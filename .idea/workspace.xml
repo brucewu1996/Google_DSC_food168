@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BranchesTreeState">
@@ -24,45 +25,107 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Bruce" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1ce3da-841e-49a8-8369-55dafd0d32dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/androidcamera/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_4_XL_API_30]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1phrkNnWGEpQiBsQg8Rsz0OEzxr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/Users/iamy8000/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.3.0/b42a5159ef2c670d26ce08246ec5aaf8f92e5a42/material-1.3.0-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_SELECTED" value="BottomNavigationView" />
+    <property name="android-custom-viewC:/Users/bruce/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-alpha01/6eb196e7d3202d35040a32334c52fb9186cd4009/material-1.4.0-alpha01-sources.jar!/com/google/android/material/navigation/NavigationBarView.java_SELECTED" value="NavigationBarView" />
+    <property name="android-custom-viewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/CameraSourcePreview.kt_SELECTED" value="CameraSourcePreview" />
+    <property name="android-custom-viewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/GraphicOverlay.kt_SELECTED" value="GraphicOverlay" />
+    <property name="android-custom-viewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Product/BottomSheetScrimView.kt_SELECTED" value="BottomSheetScrimView" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/iamy8000/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.3.0/b42a5159ef2c670d26ce08246ec5aaf8f92e5a42/material-1.3.0-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/bruce/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-alpha01/6eb196e7d3202d35040a32334c52fb9186cd4009/material-1.4.0-alpha01-sources.jar!/com/google/android/material/navigation/NavigationBarView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/CameraSourcePreview.kt_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/GraphicOverlay.kt_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Product/BottomSheetScrimView.kt_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.NucAction.Product" />
+      <recent name="com.example.NucAction.models" />
+      <recent name="com.example.androidcamera.activities" />
+    </key>
+    <key name="android.template.-1097180954">
+      <recent name="com.example.androidcamera" />
+    </key>
+    <key name="android.template.-1369110928">
+      <recent name="com.example.androidcamera.activities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+    <key name="android.template.1860043001">
+      <recent name="com.example.androidcamera.activities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-ldpi" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -114,7 +177,7 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="true" />
         <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
@@ -148,7 +211,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Bruce" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -156,21 +231,109 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1615650137329">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="433" y="162" key="#Images" timestamp="1616650873018">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state x="433" y="162" key="#Images/0.25.1440.875@0.25.1440.875" timestamp="1616650873018" />
+    <state x="458" y="221" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616494255455">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="458" y="221" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494255455" />
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616489718356">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616489718356" />
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1615887960496" />
+    <state x="-1768" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617030203289">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-1768" y="357" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617030203289" />
+    <state x="-2068" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617025746389">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-2068" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617025746389" />
+    <state x="-1909" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617024205051">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-1909" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617024205051" />
+    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616485438652" />
+    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875@0.25.1440.875" timestamp="1616676080958" />
+    <state x="-1886" y="202" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1617014395415">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-1886" y="202" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617014395415" />
+    <state x="474" y="186" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1616147312998" />
+    <state x="100" y="125" width="1240" height="675" key="AVDManager" timestamp="1616833450464">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="100" y="125" width="1240" height="675" key="AVDManager/0.25.1440.875@0.25.1440.875" timestamp="1616833450464" />
+    <state x="308" y="221" key="AndroidCreateResourceDirectoryDialog" timestamp="1616608982517">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="308" y="221" key="AndroidCreateResourceDirectoryDialog/0.25.1440.875@0.25.1440.875" timestamp="1616608982517" />
+    <state x="-2122" y="246" key="AndroidCreateResourceFileDialog" timestamp="1617001948657">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-2122" y="246" key="AndroidCreateResourceFileDialog/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617001948657" />
+    <state x="138" y="-819" key="AndroidCreateResourceFileDialog/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616666145760" />
+    <state x="308" y="221" key="AndroidCreateResourceFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1616677074602" />
+    <state x="-1789" y="296" key="AndroidCreateXmlResourceDialog" timestamp="1617001358589">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-1789" y="296" key="AndroidCreateXmlResourceDialog/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617001358589" />
+    <state x="542" y="261" key="AndroidCreateXmlResourceDialog/0.25.1440.875@0.25.1440.875" timestamp="1616575445510" />
+    <state x="248" y="-819" width="656" height="482" key="Downloadable.Font.Dialog.Size" timestamp="1616658148208">
+      <screen x="-273" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="248" y="-819" width="656" height="482" key="Downloadable.Font.Dialog.Size/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616658148208" />
+    <state x="391" y="221" width="656" height="482" key="Downloadable.Font.Dialog.Size/0.25.1440.875@0.25.1440.875" timestamp="1616654304212" />
+    <state x="-1755" y="311" key="FileChooserDialogImpl" timestamp="1616999521792">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state x="-1755" y="311" key="FileChooserDialogImpl/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1616999521792" />
+    <state width="2005" height="303" key="GridCell.Tab.0.bottom" timestamp="1617029732772">
+      <screen x="-2560" y="0" width="2048" height="1096" />
+    </state>
+    <state width="2005" height="303" key="GridCell.Tab.0.bottom/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1615650137328">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="699" height="174" key="GridCell.Tab.0.bottom/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387649" />
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916410" />
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1616868605317" />
+    <state width="2005" height="303" key="GridCell.Tab.0.center" timestamp="1617029732772">
+      <screen x="-2560" y="0" width="2048" height="1096" />
     </state>
+    <state width="2005" height="303" key="GridCell.Tab.0.center/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615650137328" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1615650137317">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="699" height="174" key="GridCell.Tab.0.center/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387649" />
+    <state width="1398" height="286" key="GridCell.Tab.0.center/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
+    <state width="1398" height="262" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1616868605316" />
+    <state width="2005" height="303" key="GridCell.Tab.0.left" timestamp="1617029732772">
+      <screen x="-2560" y="0" width="2048" height="1096" />
     </state>
+    <state width="2005" height="303" key="GridCell.Tab.0.left/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615650137317" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1615650137329">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="699" height="174" key="GridCell.Tab.0.left/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387648" />
+    <state width="1398" height="286" key="GridCell.Tab.0.left/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916408" />
+    <state width="1398" height="262" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1616868605316" />
+    <state width="2005" height="303" key="GridCell.Tab.0.right" timestamp="1617029732772">
+      <screen x="-2560" y="0" width="2048" height="1096" />
     </state>
+    <state width="2005" height="303" key="GridCell.Tab.0.right/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
+    <state width="699" height="174" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387649" />
+    <state width="1398" height="286" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
+    <state width="1398" height="262" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1616868605317" />
+    <state x="308" y="209" key="IDE.errors.dialog" timestamp="1616651053273">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="308" y="209" key="IDE.errors.dialog/0.25.1440.875@0.25.1440.875" timestamp="1616651053273" />
+    <state x="221" y="98" key="SettingsEditor" timestamp="1616486528617">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="221" y="98" key="SettingsEditor/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616486528617" />
+    <state x="472" y="340" width="618" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1616650856283">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="472" y="340" width="618" height="275" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.25.1440.875@0.25.1440.875" timestamp="1616650856283" />
   </component>
 </project>
