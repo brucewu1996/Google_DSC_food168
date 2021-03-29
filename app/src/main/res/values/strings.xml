@@ -59,5 +59,10 @@
     <string name="home_subtitle_nutrition_trans_fatty_acids">TRANS FATTY ACIDS</string>
     <string name="home_subtitle_nutrition_Cholesterol">CHOLESTEROL</string>
 
+    <!--Profile-->
+    <string name="mobile">Mobile</string>
+    <string name="update">UPDATE</string>
+    <string name="my_profile">My Profile</string>
+
 
 </resources>

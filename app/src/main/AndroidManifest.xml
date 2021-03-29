@@ -12,9 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MyProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <!-- 0. Base Activity -->
-        <activity android:name=".activities.BaseActivity" />
-        <!-- 1. Splash Activity -->
+        <activity android:name=".activities.BaseActivity" /> <!-- 1. Splash Activity -->
         <activity
             android:name=".activities.SplashActivity"
             android:screenOrientation="portrait"
@@ -24,26 +27,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- 2. Intro Activity -->
+        </activity> <!-- 2. Intro Activity -->
         <activity
             android:name=".activities.IntroActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- 3. Sign Up Activity -->
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3. Sign Up Activity -->
         <activity
             android:name=".activities.SignUpActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- 3.2 Sign Up Step 2 Activity -->
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3.2 Sign Up Step 2 Activity -->
         <activity
             android:name=".activities.SignUpStep2Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- 3. Sign In Activity -->
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3. Sign In Activity -->
         <activity
             android:name=".activities.SignInActivity"
             android:screenOrientation="portrait"
@@ -57,18 +53,16 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/providerfile" />
-        </provider>
-
-        <!-- 4. Main Activity -->
+        </provider> <!-- 4. Main Activity -->
         <activity
             android:name=".activities.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" /></intent-filter>
-        </activity>
 
-        <!-- 5. Camera Activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 5. Camera Activity -->
         <activity
             android:name=".activities.CameraActivity"
             android:screenOrientation="portrait"

@@ -121,6 +121,8 @@
                     <ProgressBar
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:max="100"
+                        android:min="0"
                         android:minHeight="50dp"
                         android:minWidth="50dp"
                         style="?android:attr/progressBarStyleHorizontal"
@@ -151,7 +153,14 @@
                         android:gravity="center"
                         android:layout_marginTop="@dimen/home_text_marginTop"
                         android:text="@string/home_subtitle_nutrition_protein"
-                        android:textSize="@dimen/home_subtitle_textSize"/></LinearLayout></androidx.cardview.widget.CardView>
+                        android:textSize="@dimen/home_subtitle_textSize"/>
+                    <ProgressBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="50dp"
+                        android:minWidth="50dp"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:indeterminate="true" /></LinearLayout></androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
