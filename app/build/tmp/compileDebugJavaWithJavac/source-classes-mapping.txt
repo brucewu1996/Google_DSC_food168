@@ -1,0 +1,77 @@
+com/google/mlkit/md/databinding/ProductItemBinding.java
+ com.google.mlkit.md.databinding.ProductItemBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/google/mlkit/md/databinding/TopActionBarInStaticImageBinding.java
+ com.google.mlkit.md.databinding.TopActionBarInStaticImageBinding
+com/google/mlkit/md/database/barcodeDao_Impl.java
+ com.google.mlkit.md.database.barcodeDao_Impl
+ com.google.mlkit.md.database.barcodeDao_Impl$1
+ com.google.mlkit.md.database.barcodeDao_Impl$2
+ com.google.mlkit.md.database.barcodeDao_Impl$3
+ com.google.mlkit.md.database.barcodeDao_Impl$4
+com/google/mlkit/md/databinding/DetectionModeItemBinding.java
+ com.google.mlkit.md.databinding.DetectionModeItemBinding
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/google/mlkit/md/databinding/CameraPreviewOverlayBinding.java
+ com.google.mlkit.md.databinding.CameraPreviewOverlayBinding
+com/google/mlkit/md/databinding/ActivityMainBindingImpl.java
+ com.google.mlkit.md.databinding.ActivityMainBindingImpl
+com/google/mlkit/md/databinding/ActivityLiveBarcodeBindingImpl.java
+ com.google.mlkit.md.databinding.ActivityLiveBarcodeBindingImpl
+com/google/mlkit/md/BuildConfig.java
+ com.google.mlkit.md.BuildConfig
+com/google/mlkit/md/databinding/BarcodeConfirmBinding.java
+ com.google.mlkit.md.databinding.BarcodeConfirmBinding
+com/google/mlkit/md/DataBinderMapperImpl.java
+ com.google.mlkit.md.DataBinderMapperImpl
+ com.google.mlkit.md.DataBinderMapperImpl$InnerBrLookup
+ com.google.mlkit.md.DataBinderMapperImpl$InnerLayoutIdLookup
+com/google/mlkit/md/database/foodDao_Impl.java
+ com.google.mlkit.md.database.foodDao_Impl
+ com.google.mlkit.md.database.foodDao_Impl$1
+ com.google.mlkit.md.database.foodDao_Impl$2
+ com.google.mlkit.md.database.foodDao_Impl$3
+ com.google.mlkit.md.database.foodDao_Impl$4
+com/google/mlkit/md/databinding/BarcodeFieldBindingImpl.java
+ com.google.mlkit.md.databinding.BarcodeFieldBindingImpl
+com/google/mlkit/md/databinding/ActivityStaticObjectBinding.java
+ com.google.mlkit.md.databinding.ActivityStaticObjectBinding
+com/google/mlkit/md/databinding/ProductsPreviewCardBinding.java
+ com.google.mlkit.md.databinding.ProductsPreviewCardBinding
+com/google/mlkit/md/database/NucActRoomDatabase_Impl.java
+ com.google.mlkit.md.database.NucActRoomDatabase_Impl
+ com.google.mlkit.md.database.NucActRoomDatabase_Impl$1
+com/google/mlkit/md/database/diaryDao_Impl.java
+ com.google.mlkit.md.database.diaryDao_Impl
+ com.google.mlkit.md.database.diaryDao_Impl$1
+ com.google.mlkit.md.database.diaryDao_Impl$2
+ com.google.mlkit.md.database.diaryDao_Impl$3
+ com.google.mlkit.md.database.diaryDao_Impl$4
+com/google/mlkit/md/databinding/TopActionBarInLiveCameraBinding.java
+ com.google.mlkit.md.databinding.TopActionBarInLiveCameraBinding
+com/google/mlkit/md/databinding/ProductBottomSheetBinding.java
+ com.google.mlkit.md.databinding.ProductBottomSheetBinding
+com/google/mlkit/md/databinding/ActivityLiveBarcodeBinding.java
+ com.google.mlkit.md.databinding.ActivityLiveBarcodeBinding
+com/google/mlkit/md/databinding/ActivityMainBinding.java
+ com.google.mlkit.md.databinding.ActivityMainBinding
+com/google/mlkit/md/BR.java
+ com.google.mlkit.md.BR
+com/google/mlkit/md/databinding/ActivityLiveObjectBindingImpl.java
+ com.google.mlkit.md.databinding.ActivityLiveObjectBindingImpl
+com/google/mlkit/md/databinding/InputNutritionInfoBinding.java
+ com.google.mlkit.md.databinding.InputNutritionInfoBinding
+com/google/mlkit/md/databinding/ActivityLiveObjectBinding.java
+ com.google.mlkit.md.databinding.ActivityLiveObjectBinding
+com/google/mlkit/md/databinding/ActivitySettingsBinding.java
+ com.google.mlkit.md.databinding.ActivitySettingsBinding
+com/google/mlkit/md/databinding/BarcodeBottomSheetBinding.java
+ com.google.mlkit.md.databinding.BarcodeBottomSheetBinding
+com/google/mlkit/md/DataBindingTriggerClass.java
+ com.google.mlkit.md.DataBindingTriggerClass
+com/google/mlkit/md/databinding/BarcodeFieldBinding.java
+ com.google.mlkit.md.databinding.BarcodeFieldBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

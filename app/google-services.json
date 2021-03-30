@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86228859891",
+    "project_id": "dsc-food-168",
+    "storage_bucket": "dsc-food-168.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86228859891:android:0aecb76046b3476f1e7086",
+        "android_client_info": {
+          "package_name": "com.google.mlkit.md"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86228859891-ek3085nd41jht1dsf0ok8r45ffgd8bo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKYy5hubcpf3GvCckKQWnQrCxAseO-zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86228859891-ek3085nd41jht1dsf0ok8r45ffgd8bo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\camera_preview_overlay.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\camera_preview_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\barcode_field.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\barcode_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\input_nutrition_info.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\input_nutrition_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_live_barcode.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_live_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_static_object.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_static_object.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\top_action_bar_in_live_camera.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\top_action_bar_in_live_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_bottom_sheet.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\product_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_live_object.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_live_object.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_item.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\product_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\top_action_bar_in_static_image.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\top_action_bar_in_static_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detection_mode_item.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\detection_mode_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\products_preview_card.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\products_preview_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\barcode_bottom_sheet.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\barcode_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\barcode_confirm.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\barcode_confirm.xml"
+    }
+]

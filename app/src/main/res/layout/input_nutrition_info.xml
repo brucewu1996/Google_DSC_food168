@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input item nutrition info"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_gravity="center">
+
+    </TextView>
+    //item
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/barcode_field_padding_vertical"
+        android:paddingStart="@dimen/barcode_field_padding_horizontal"
+        android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/input_nutrition_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+            android:padding="@dimen/barcode_field_value_padding"
+            android:background="@drawable/barcode_field_box"
+            android:textColor="@color/barcode_field_value"
+            android:textSize="@dimen/barcode_field_value_size"/>
+
+        <TextView
+            android:id="@+id/input_nutrition_item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/barcode_field_value_padding"
+            android:padding="@dimen/barcode_field_label_padding"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="Item"
+            android:textSize="@dimen/barcode_field_label_size"/>
+    </FrameLayout>
+    //energy and protein
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_energy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Energy"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_protein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Protein"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    //total lipid and carbohydrate
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_lipid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="lipid"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_carbohydrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Carbohydrate"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    // sugar and NA
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_sugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Sugar"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_NA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Sodium"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    //trans and sat lipid
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_sa_lipid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Saturated_lipid"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/barcode_field_padding_vertical"
+            android:paddingStart="@dimen/barcode_field_padding_horizontal"
+            android:paddingEnd="@dimen/barcode_field_padding_horizontal"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/input_nutrition_trans_lipid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/barcode_field_padding_vertical"
+                android:padding="@dimen/barcode_field_value_padding"
+                android:background="@drawable/barcode_field_box"
+                android:textColor="@color/barcode_field_value"
+                android:textSize="@dimen/barcode_field_value_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/barcode_field_value_padding"
+                android:padding="@dimen/barcode_field_label_padding"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text="Trans_lipid"
+                android:textSize="@dimen/barcode_field_label_size"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/input_nutrition_confirmed_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?attr/borderlessButtonStyle"
+        android:text="Add item">
+    </Button>
+
+</LinearLayout>

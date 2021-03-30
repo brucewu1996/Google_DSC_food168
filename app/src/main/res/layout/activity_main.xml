@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <data>
+    <variable
+        name = "viewModel"
+        type = "com.google.mlkit.md.camera.WorkflowModel"/>
+  </data>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:bind="http://schemas.android.com/tools"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/home_page_title_padding_top"
+        android:paddingBottom="@dimen/home_page_title_padding_bottom"
+        android:fontFamily="google-sans"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/home_page_title_size"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/camera_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/bottom_navigation"
+        app:itemIconTint="@drawable/camera_nevigator_view_sel"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+  </RelativeLayout>
+</layout>
