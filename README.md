@@ -9,7 +9,7 @@
 ## User Interface
 **Barcode Scanner**
 <p>
-  <img width="30%" align="center" src="./foodClassify_edited.gif">
+  <img width="30%" align="center" src="./ezgif.com-video-to-gif.gif">
 </p>
 
 ## Introduction
