@@ -8,8 +8,8 @@
 
 ## User Interface
 **Barcode Scanner**
-<p align="center">
-  <img width="80%" align="center" src="">
+<p>
+  <img width="30%" align="center" src="./foodClassify_edited.gif">
 </p>
 
 ## Introduction
