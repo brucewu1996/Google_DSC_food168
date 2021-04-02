@@ -43,7 +43,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_preview_overlay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/camera_preview_overlay.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/Users/iamy8000/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.3.0/b42a5159ef2c670d26ce08246ec5aaf8f92e5a42/material-1.3.0-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_SELECTED" value="BottomNavigationView" />
     <property name="android-custom-view/Users/iamy8000/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-alpha01/6eb196e7d3202d35040a32334c52fb9186cd4009/material-1.4.0-alpha01-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_SELECTED" value="BottomNavigationView" />
+    <property name="android-custom-view/Users/iamy8000/AndroidStudioProjects/NucAction/app/src/main/java/com/example/nucaction/camera/CameraSourcePreview.kt_SELECTED" value="CameraSourcePreview" />
     <property name="android-custom-viewC:/Users/bruce/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-alpha01/6eb196e7d3202d35040a32334c52fb9186cd4009/material-1.4.0-alpha01-sources.jar!/com/google/android/material/navigation/NavigationBarView.java_SELECTED" value="NavigationBarView" />
     <property name="android-custom-viewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/CameraSourcePreview.kt_SELECTED" value="CameraSourcePreview" />
     <property name="android-custom-viewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/GraphicOverlay.kt_SELECTED" value="GraphicOverlay" />
@@ -106,6 +107,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-preview/Users/iamy8000/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.3.0/b42a5159ef2c670d26ce08246ec5aaf8f92e5a42/material-1.3.0-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/iamy8000/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-alpha01/6eb196e7d3202d35040a32334c52fb9186cd4009/material-1.4.0-alpha01-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/iamy8000/AndroidStudioProjects/NucAction/app/src/main/java/com/example/nucaction/camera/CameraSourcePreview.kt_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/bruce/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-alpha01/6eb196e7d3202d35040a32334c52fb9186cd4009/material-1.4.0-alpha01-sources.jar!/com/google/android/material/navigation/NavigationBarView.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/CameraSourcePreview.kt_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/bruce/NucActionBeta/app/src/main/java/com/example/NucAction/Camera/GraphicOverlay.kt_selected" value="Custom views" />
@@ -300,38 +302,38 @@
       <screen x="-2560" y="0" width="2048" height="1096" />
     </state>
     <state x="-1755" y="311" key="FileChooserDialogImpl/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1616999521792" />
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom" timestamp="1617358919332">
+    <state width="1398" height="159" key="GridCell.Tab.0.bottom" timestamp="1617359901034">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="2005" height="303" key="GridCell.Tab.0.bottom/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
     <state width="699" height="174" key="GridCell.Tab.0.bottom/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387649" />
     <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916410" />
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1617358919332" />
-    <state width="1398" height="153" key="GridCell.Tab.0.center" timestamp="1617358919331">
+    <state width="1398" height="159" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1617359901034" />
+    <state width="1398" height="159" key="GridCell.Tab.0.center" timestamp="1617359901033">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="2005" height="303" key="GridCell.Tab.0.center/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615650137328" />
     <state width="699" height="174" key="GridCell.Tab.0.center/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387649" />
     <state width="1398" height="286" key="GridCell.Tab.0.center/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
-    <state width="1398" height="153" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1617358919331" />
-    <state width="1398" height="153" key="GridCell.Tab.0.left" timestamp="1617358919331">
+    <state width="1398" height="159" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1617359901033" />
+    <state width="1398" height="159" key="GridCell.Tab.0.left" timestamp="1617359901033">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="2005" height="303" key="GridCell.Tab.0.left/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615650137317" />
     <state width="699" height="174" key="GridCell.Tab.0.left/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387648" />
     <state width="1398" height="286" key="GridCell.Tab.0.left/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916408" />
-    <state width="1398" height="153" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1617358919331" />
-    <state width="1398" height="153" key="GridCell.Tab.0.right" timestamp="1617358919331">
+    <state width="1398" height="159" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1617359901033" />
+    <state width="1398" height="159" key="GridCell.Tab.0.right" timestamp="1617359901033">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="2005" height="303" key="GridCell.Tab.0.right/-2560.0.2048.1096/0.0.2194.1194@-2560.0.2048.1096" timestamp="1617029732772" />
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615650137329" />
     <state width="699" height="174" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1616664387649" />
     <state width="1398" height="286" key="GridCell.Tab.0.right/0.25.1440.875/-273.-1055.1920.1055@0.25.1440.875" timestamp="1616494916409" />
-    <state width="1398" height="153" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1617358919331" />
+    <state width="1398" height="159" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1617359901033" />
     <state x="308" y="209" key="IDE.errors.dialog" timestamp="1616651053273">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
