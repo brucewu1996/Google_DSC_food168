@@ -69,11 +69,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- 5. Camera Activity -->
-        <activity
-            android:name="com.example.nucaction.activities.CameraActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/noActionBartheme" />
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

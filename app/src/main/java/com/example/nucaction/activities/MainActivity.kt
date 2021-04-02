@@ -25,8 +25,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding : ActivityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+//        val binding : ActivityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+//        setContentView(binding.root)
 
+        val rootView = LayoutInflater.from(this).inflate(R.layout.activity_main, null)
+        val binding = ActivityMainBinding.bind(rootView)
         setContentView(binding.root)
 
         camera_bottom_navigation = findViewById<BottomNavigationView>(R.id.camera_bottom_navigation)
