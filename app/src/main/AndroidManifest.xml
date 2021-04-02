@@ -63,7 +63,7 @@
         <activity
             android:name="com.example.nucaction.activities.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/noActionBartheme">
+            android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
