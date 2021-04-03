@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Food Now!</string>
+    <string name="app_name">NutAction</string>
 
     <!--sign in page-->
     <string name="image_contentDescription">image</string>
-    <string name="let_s_get_started_text">Welcome to GooNus!</string>
+    <string name="let_s_get_started_text">Welcome to NutAction!</string>
     <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
     <string name="sign_in">SIGN IN</string>
     <string name="sign_up">SIGN UP</string>
@@ -55,14 +55,19 @@
     <string name="home_subtitle_nutrition_dietary_fiber">DIETARY FIBER</string>
     <string name="home_subtitle_nutrition_sugars">SUGARS</string>
     <string name="home_subtitle_nutrition_na">NA</string>
-    <string name="home_subtitle_nutrition_saturated_fatty_acids">SATURATED FATTY ACIDS</string>
-    <string name="home_subtitle_nutrition_trans_fatty_acids">TRANS FATTY ACIDS</string>
+    <string name="home_subtitle_nutrition_saturated_fatty_acids">SATURATED FATTY</string>
+    <string name="home_subtitle_nutrition_trans_fatty_acids">TRANS FATTY</string>
     <string name="home_subtitle_nutrition_Cholesterol">CHOLESTEROL</string>
+    <string name="home_progress_text">100 LEFT</string>
 
     <!--Profile-->
     <string name="mobile">Mobile</string>
     <string name="update">UPDATE</string>
     <string name="my_profile">My Profile</string>
+    <string name="select_date">select date</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="get_your_nutrition">get your nutrition</string>
+
 
     <!--ML kit-->
     <string name="entry_java_title">Java</string>

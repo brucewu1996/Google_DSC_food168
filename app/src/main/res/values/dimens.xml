@@ -44,6 +44,7 @@
     <dimen name="home_subtitle_card_margin">3dp</dimen>
     <dimen name="home_row_padding">10dp</dimen>
     <dimen name="home_row_margin">10dp</dimen>
+    <dimen name="home_progress_bar_marginTop">3dp</dimen>
 
     <dimen name="my_profile_screen_content_marginStartEnd">16dp</dimen>
     <dimen name="my_profile_screen_content_marginTopBottom">10dp</dimen>
