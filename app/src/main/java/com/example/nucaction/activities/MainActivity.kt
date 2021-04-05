@@ -18,33 +18,27 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-
     lateinit var camera_bottom_navigation : BottomNavigationView
 
     @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-//        val binding : ActivityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main)
-//        setContentView(binding.root)
-
         val rootView = LayoutInflater.from(this).inflate(R.layout.activity_main, null)
         val binding = ActivityMainBinding.bind(rootView)
         setContentView(binding.root)
 
         camera_bottom_navigation = findViewById<BottomNavigationView>(R.id.camera_bottom_navigation)
-
         camera_bottom_navigation.selectedItemId = R.id.action_barcode_scan
         camera_bottom_navigation.setOnNavigationItemSelectedListener(this.listener)
-        val activity = this@MainActivity
 
+        val activity = this@MainActivity
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
         }
 
-        //sign in change page
-
+        //main page: date selector
         binding.btnDatePicker.setOnClickListener { view ->
             clickDatePicker(view)
         }

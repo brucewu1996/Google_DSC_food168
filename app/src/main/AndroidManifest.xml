@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nucaction">
 
-    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.camera" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -13,41 +14,58 @@
         android:roundIcon="@drawable/ic_task_image"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"/>
+            android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.example.nucaction.activities.MyProfileActivity"
+            android:name=".activities.MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+        <activity
+            android:name=".activities.MyProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <!-- 0. Base Activity -->
-        <activity android:name="com.example.nucaction.activities.BaseActivity" /> <!-- 1. Splash Activity -->
 
+        <!-- 0. Base Activity -->
+        <activity android:name=".activities.BaseActivity" />
+
+        <!-- 1. Splash Activity -->
         <activity
-            android:name="com.example.nucaction.activities.SplashActivity"
+            android:name=".activities.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity> <!-- 2. Intro Activity -->
+                <category android:name="android.intent.category.LAUNCHER" /></intent-filter></activity>
+
+        <!-- 2. Intro Activity -->
         <activity
-            android:name="com.example.nucaction.activities.IntroActivity"
+            android:name=".activities.IntroActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3. Sign Up Activity -->
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- 3. Sign Up Activity -->
         <activity
-            android:name="com.example.nucaction.activities.SignUpActivity"
+            android:name=".activities.SignUpActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3.2 Sign Up Step 2 Activity -->
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- 3.2 Sign Up Step 2 Activity -->
         <activity
-            android:name="com.example.nucaction.activities.SignUpStep2Activity"
+            android:name=".activities.SignUpStep2Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- 3. Sign In Activity -->
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- 3. Sign In Activity -->
         <activity
-            android:name="com.example.nucaction.activities.SignInActivity"
+            android:name=".activities.SignInActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
@@ -59,20 +77,21 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/providerfile" />
-        </provider> <!-- 4. Main Activity -->
+        </provider>
+
+        <!-- 4. Main Activity -->
         <activity
-            android:name="com.example.nucaction.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            </intent-filter></activity>
 
         <activity
-            android:name="com.example.nucaction.activities.BarcodeActivity"
+            android:name=".activities.BarcodeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.NoActionBar" />
 
