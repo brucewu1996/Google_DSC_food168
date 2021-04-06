@@ -4,8 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 
 @Dao
-interface healthyDietDao{
-    @Query("SELECT * FROM healthyDiet")
-    fun getAllHealthyDiet()
-
+interface HealthyDietDao{
+    @Query("SELECT * FROM healthyDiet_model")
+    fun getAllHealthyDiet():List<HealthyDietModel>
 }

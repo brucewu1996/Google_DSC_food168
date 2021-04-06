@@ -5,8 +5,9 @@
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/657580106ebff4aa6d604b71ff0785d3/jetified-vision-internal-vkp-18.0.0/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/657580106ebff4aa6d604b71ff0785d3/jetified-vision-internal-vkp-18.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/657580106ebff4aa6d604b71ff0785d3/jetified-vision-internal-vkp-18.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/657580106ebff4aa6d604b71ff0785d3/jetified-vision-internal-vkp-18.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/657580106ebff4aa6d604b71ff0785d3/jetified-vision-internal-vkp-18.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c198041fbc8c52595d72d338ae40912/jetified-vision-internal-vkp-18.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c198041fbc8c52595d72d338ae40912/jetified-vision-internal-vkp-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c198041fbc8c52595d72d338ae40912/jetified-vision-internal-vkp-18.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.mlkit/vision-internal-vkp/18.0.0/6a8b08d2a93001c8d089863beda57683994fb63d/vision-internal-vkp-18.0.0-javadoc.jar!/" />

@@ -4,9 +4,10 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "healthyDiet")
-data class healthyDiet(
+@Entity(tableName = "healthyDiet_model")
+data class HealthyDietModel(
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name="id")
     var id: Int,
 
     @ColumnInfo(name = "gender")

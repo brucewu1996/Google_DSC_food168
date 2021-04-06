@@ -4,9 +4,10 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "foodScan")
-data class foodScan(
+@Entity(tableName = "foodScan_model")
+data class FoodScanModel(
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name="id")
     var id: Int,
 
     @ColumnInfo(name = "item")

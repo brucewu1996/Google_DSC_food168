@@ -2,11 +2,14 @@ package com.example.nucaction.database
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
+import androidx.room.Index
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "barcode")
-data class barcode(
+@Entity(tableName = "barcode_model")
+class BarcodeModel(
+
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name="id")
     var id: Int,
 
     @ColumnInfo(name = "barcode_value")

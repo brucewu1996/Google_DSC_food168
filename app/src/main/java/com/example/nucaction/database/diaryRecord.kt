@@ -1,38 +1,40 @@
 package com.example.nucaction.database
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.ForeignKey
-import androidx.room.PrimaryKey
+import androidx.room.*
+import com.google.android.gms.common.config.GservicesValue.value
 import java.util.*
 
+
 @Entity(
-    tableName = "diaryRecord",
+    tableName = "diaryRecord_model",
+    indices = arrayOf(Index(value = ["FoodScanId"], unique = true), Index(value = ["BarcodeId"], unique = true)),
     foreignKeys = [
         ForeignKey(
-            entity = foodScan::class,
+            entity = FoodScanModel::class,
             parentColumns = arrayOf("id"),
             childColumns = arrayOf("FoodScanId"),
             onDelete = ForeignKey.CASCADE
         ),
+
         ForeignKey(
-            entity = barcode::class,
+            entity = BarcodeModel::class,
             parentColumns = arrayOf("id"),
             childColumns = arrayOf("BarcodeId"),
             onDelete = ForeignKey.CASCADE
         )
     ]
 )
-data class diaryRecord(
+class DiaryRecordModel(
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
     var id: Int,
 
     @ColumnInfo(name = "date")
-    var date: Calendar,
+    var date: String,
 
     @ColumnInfo(name = "FoodScanId")
-    var ScanFoodId: Int,
+    var FoodScanId: Int,
 
     @ColumnInfo(name = "BarcodeId")
-    var BarcodeFoodId: Int,
+    var BarcodeId: Int,
 )
