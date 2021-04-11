@@ -11,9 +11,12 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.firebase.database.FirebaseDatabase
 import com.google.mlkit.md.R
 import com.google.mlkit.md.camera.WorkflowModel
 import com.google.mlkit.md.camera.WorkflowModel.WorkflowState
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 /** Displays the bottom sheet to present barcode fields contained in the detected barcode.  */
@@ -31,9 +34,16 @@ class BarcodeResultFragment : BottomSheetDialogFragment(), View.OnClickListener 
         val labelView: TextView = view.findViewById(R.id.barcode_field_label)
         val valueView: TextView = view.findViewById(R.id.barcode_field_value)
 
+        var database = FirebaseDatabase.getInstance().reference
+
+        val barcode_input = barcode.value
+
+        database.child("barcode").child("4710010000000").get().addOnSuccessListener {
+            val target_barcode_info  = it.getValue(barcode_info::class.java)
+            labelView.text = target_barcode_info?.item
+            valueView.text = barcode.value
+        }
         //pass barcode value
-        labelView.text = barcode.label
-        valueView.text = barcode.value
 
         val btn_barcode_check : Button = view.findViewById(R.id.barcode_field_btn_barcode_check)
         val btn_input_nutrition_info: Button = view.findViewById(R.id.barcode_field_btn_input_nutrition_info)
@@ -62,6 +72,15 @@ class BarcodeResultFragment : BottomSheetDialogFragment(), View.OnClickListener 
             }
 
         }
+    }
+
+    fun Date.toString(format: String, locale: Locale = Locale.getDefault()): String {
+        val formatter = SimpleDateFormat(format, locale)
+        return formatter.format(this)
+    }
+
+    fun getCurrentDateTime(): Date {
+        return Calendar.getInstance().time
     }
 
     companion object {

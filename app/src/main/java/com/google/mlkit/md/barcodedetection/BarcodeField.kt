@@ -22,3 +22,5 @@ import kotlinx.android.parcel.Parcelize
 /** Information about a barcode field.  */
 @Parcelize
 data class BarcodeField(val label: String, val value: String) : Parcelable
+
+class barcode_value(val barcode_value : String)

@@ -15,6 +15,16 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
+
+        resValue "string", "google_maps_key",
+                (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+
+        Properties properties = new Properties()
+        if (rootProject.file("local.properties").exists()) {
+            properties.load(rootProject.file("local.properties").newDataInputStream())
+        }
+
+        manifestPlaceholders = [ mapsApiKey : properties.getProperty("MAPS_API_KEY", "") ]
     }
     buildTypes {
         release {
@@ -78,6 +88,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycleVersion"
     // Room components
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
+    implementation 'com.google.firebase:firebase-database:19.7.0'
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 
@@ -85,5 +96,10 @@ dependencies {
     implementation 'com.github.doyaaaaaken:kotlin-csv-jvm:0.15.1'
     //gson
     implementation 'com.google.code.gson:gson:2.8.6'
+    //google map
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+    //lottie view
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 }
 

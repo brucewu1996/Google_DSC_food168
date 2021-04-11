@@ -9,7 +9,6 @@ import androidx.databinding.ViewDataBinding;
 import com.google.mlkit.md.databinding.ActivityLiveBarcodeBindingImpl;
 import com.google.mlkit.md.databinding.ActivityLiveObjectBindingImpl;
 import com.google.mlkit.md.databinding.ActivityMainBindingImpl;
-import com.google.mlkit.md.databinding.BarcodeFieldBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -27,15 +26,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYMAIN = 3;
 
-  private static final int LAYOUT_BARCODEFIELD = 4;
-
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.md.R.layout.activity_live_barcode, LAYOUT_ACTIVITYLIVEBARCODE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.md.R.layout.activity_live_object, LAYOUT_ACTIVITYLIVEOBJECT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.md.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.md.R.layout.barcode_field, LAYOUT_BARCODEFIELD);
   }
 
   @Override
@@ -64,12 +60,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMainBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
-        }
-        case  LAYOUT_BARCODEFIELD: {
-          if ("layout/barcode_field_0".equals(tag)) {
-            return new BarcodeFieldBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for barcode_field is invalid. Received: " + tag);
         }
       }
     }
@@ -126,13 +116,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/activity_live_barcode_0", com.google.mlkit.md.R.layout.activity_live_barcode);
       sKeys.put("layout/activity_live_object_0", com.google.mlkit.md.R.layout.activity_live_object);
       sKeys.put("layout/activity_main_0", com.google.mlkit.md.R.layout.activity_main);
-      sKeys.put("layout/barcode_field_0", com.google.mlkit.md.R.layout.barcode_field);
     }
   }
 }

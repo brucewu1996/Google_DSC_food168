@@ -59,7 +59,8 @@ class WorkflowModel(application: Application) : AndroidViewModel(application) {
         SEARCHING,
         SEARCHED,
         RECORD_BY_USER,
-        RECORDED
+        RECORDED,
+        Delivering
     }
 
     @MainThread

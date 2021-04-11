@@ -8,6 +8,8 @@
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
   <application
       android:allowBackup="false"
@@ -21,6 +23,10 @@
         android:name="com.google.android.gms.version"
         android:value="@integer/google_play_services_version"/>
 
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="${mapsApiKey}"  />
+
     <activity
         android:name="com.google.mlkit.md.MainActivity"
         android:exported="true"
@@ -32,7 +38,7 @@
     </activity>
 
     <activity
-        android:name="com.google.mlkit.md.LiveObjectDetectionActivity"
+        android:name="com.google.mlkit.md.FoodClassifier"
         android:exported="false"
         android:screenOrientation="portrait">
     </activity>
@@ -59,6 +65,12 @@
         android:name="com.google.mlkit.md.settings.SettingsActivity"
         android:exported="false"
         android:label="@string/settings_title"
+        android:screenOrientation="portrait">
+    </activity>
+
+    <activity
+        android:name="com.google.mlkit.md.map.MapsActivity"
+        android:exported="false"
         android:screenOrientation="portrait">
     </activity>
 

@@ -8,16 +8,20 @@
         "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\camera_preview_overlay.xml"
     },
     {
-        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\barcode_field.xml",
-        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\barcode_field.xml"
-    },
-    {
         "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\input_nutrition_info.xml",
         "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\input_nutrition_info.xml"
     },
     {
         "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_live_barcode.xml",
         "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_live_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\classifier_bottom_sheet.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\classifier_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\location_info.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\location_info.xml"
     },
     {
         "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_settings.xml",
@@ -48,6 +52,18 @@
         "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\top_action_bar_in_static_image.xml"
     },
     {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\map_dialog.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\map_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\classifier_confirm.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\classifier_confirm.xml"
+    },
+    {
         "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detection_mode_item.xml",
         "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\detection_mode_item.xml"
     },
@@ -62,5 +78,9 @@
     {
         "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\barcode_confirm.xml",
         "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\barcode_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\deliver_dialog.xml",
+        "source": "C:\\Users\\bruce\\NucAction0329\\app\\src\\main\\res\\layout\\deliver_dialog.xml"
     }
 ]

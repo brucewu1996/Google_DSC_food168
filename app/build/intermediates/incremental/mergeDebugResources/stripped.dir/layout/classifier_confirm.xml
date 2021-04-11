@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/classifier_field_container"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/classifier_confirmed_cardview_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/edamame"
+                android:scaleType="centerCrop"
+                />
+            <!-- Title, secondary and supporting text -->
+            <TextView
+                android:id="@+id/classifier_confiemed_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:text="Edamame"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Energy : 106 kcal"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Protein : 10.59 g"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Total lipid : 4.71 g"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Carbohydrate : 8.24 g"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Dietary fiber : 4.7 g"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Sugar : 2.35 g"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Sodium : 6 mg"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Cholesterol : 0 mg"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Satu-fatty acids : 0 mg"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:text="Trans fatty acids : 0 mg"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/barcode_field_box_stroke"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/barcode_confirmed_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                style="?attr/borderlessButtonStyle"
+                android:text="Add item">
+            </Button>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

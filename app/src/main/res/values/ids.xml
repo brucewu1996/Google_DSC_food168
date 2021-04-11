@@ -2,4 +2,7 @@
 <resources>
     <item name="barcode_field_btn_nutrition_info" type="id" />
     <item name="barcode_field_btn_input_nutrition_info" type="id" />
+    <item name="btn_location_one" type="id" />
+    <item name="btn_location_two" type="id" />
+    <item name="btn_location_three" type="id" />
 </resources>

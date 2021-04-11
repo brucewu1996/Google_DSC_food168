@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="#e3342f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:background="#e3342f"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/scooter" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:background="#e3342f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="google-sans"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Your food is delivering !!"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+</LinearLayout>

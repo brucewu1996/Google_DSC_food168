@@ -26,6 +26,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.mlkit.md.databinding.ActivityMainBinding
+import com.google.mlkit.md.map.MapsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 /** Entry activity to select the detection mode.  */
@@ -63,7 +64,10 @@ class MainActivity : AppCompatActivity() {
                     activity.startActivity(Intent(activity, LiveBarcodeScanningActivity::class.java))
                 }
                 R.id.action_object_detection -> {
-                    activity.startActivity(Intent(activity, CustomModelObjectDetectionActivity::class.java))
+                    activity.startActivity(Intent(activity, FoodClassifier::class.java))
+                }
+                R.id.action_google_map ->{
+                    activity.startActivity(Intent(activity,MapsActivity::class.java))
                 }
             }
             return true

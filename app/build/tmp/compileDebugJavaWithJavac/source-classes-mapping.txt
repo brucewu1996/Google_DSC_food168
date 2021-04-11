@@ -18,6 +18,8 @@ com/google/mlkit/md/databinding/CameraPreviewOverlayBinding.java
  com.google.mlkit.md.databinding.CameraPreviewOverlayBinding
 com/google/mlkit/md/databinding/ActivityMainBindingImpl.java
  com.google.mlkit.md.databinding.ActivityMainBindingImpl
+com/google/mlkit/md/databinding/ClassifierConfirmBinding.java
+ com.google.mlkit.md.databinding.ClassifierConfirmBinding
 com/google/mlkit/md/databinding/ActivityLiveBarcodeBindingImpl.java
  com.google.mlkit.md.databinding.ActivityLiveBarcodeBindingImpl
 com/google/mlkit/md/BuildConfig.java
@@ -34,8 +36,6 @@ com/google/mlkit/md/database/foodDao_Impl.java
  com.google.mlkit.md.database.foodDao_Impl$2
  com.google.mlkit.md.database.foodDao_Impl$3
  com.google.mlkit.md.database.foodDao_Impl$4
-com/google/mlkit/md/databinding/BarcodeFieldBindingImpl.java
- com.google.mlkit.md.databinding.BarcodeFieldBindingImpl
 com/google/mlkit/md/databinding/ActivityStaticObjectBinding.java
  com.google.mlkit.md.databinding.ActivityStaticObjectBinding
 com/google/mlkit/md/databinding/ProductsPreviewCardBinding.java
@@ -43,6 +43,8 @@ com/google/mlkit/md/databinding/ProductsPreviewCardBinding.java
 com/google/mlkit/md/database/NucActRoomDatabase_Impl.java
  com.google.mlkit.md.database.NucActRoomDatabase_Impl
  com.google.mlkit.md.database.NucActRoomDatabase_Impl$1
+com/google/mlkit/md/databinding/ClassifierBottomSheetBinding.java
+ com.google.mlkit.md.databinding.ClassifierBottomSheetBinding
 com/google/mlkit/md/database/diaryDao_Impl.java
  com.google.mlkit.md.database.diaryDao_Impl
  com.google.mlkit.md.database.diaryDao_Impl$1
@@ -51,6 +53,8 @@ com/google/mlkit/md/database/diaryDao_Impl.java
  com.google.mlkit.md.database.diaryDao_Impl$4
 com/google/mlkit/md/databinding/TopActionBarInLiveCameraBinding.java
  com.google.mlkit.md.databinding.TopActionBarInLiveCameraBinding
+com/google/mlkit/md/databinding/DeliverDialogBinding.java
+ com.google.mlkit.md.databinding.DeliverDialogBinding
 com/google/mlkit/md/databinding/ProductBottomSheetBinding.java
  com.google.mlkit.md.databinding.ProductBottomSheetBinding
 com/google/mlkit/md/databinding/ActivityLiveBarcodeBinding.java
@@ -61,6 +65,10 @@ com/google/mlkit/md/BR.java
  com.google.mlkit.md.BR
 com/google/mlkit/md/databinding/ActivityLiveObjectBindingImpl.java
  com.google.mlkit.md.databinding.ActivityLiveObjectBindingImpl
+com/google/mlkit/md/databinding/ActivityMapsBinding.java
+ com.google.mlkit.md.databinding.ActivityMapsBinding
+com/google/mlkit/md/databinding/LocationInfoBinding.java
+ com.google.mlkit.md.databinding.LocationInfoBinding
 com/google/mlkit/md/databinding/InputNutritionInfoBinding.java
  com.google.mlkit.md.databinding.InputNutritionInfoBinding
 com/google/mlkit/md/databinding/ActivityLiveObjectBinding.java
@@ -71,7 +79,5 @@ com/google/mlkit/md/databinding/BarcodeBottomSheetBinding.java
  com.google.mlkit.md.databinding.BarcodeBottomSheetBinding
 com/google/mlkit/md/DataBindingTriggerClass.java
  com.google.mlkit.md.DataBindingTriggerClass
-com/google/mlkit/md/databinding/BarcodeFieldBinding.java
- com.google.mlkit.md.databinding.BarcodeFieldBinding
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent

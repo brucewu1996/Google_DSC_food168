@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/barcode_field_cardview_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/beitou_market"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/barcode_cardview_description"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Beitou Market"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/btn_location_one"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DELIVER"
+            style="?attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/shidong_market"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/barcode_cardview_description"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Shidong Market"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/btn_location_two"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DELIVER"
+            style="?attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/jason_market"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/barcode_cardview_description"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Tianmu JASONS Market"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/btn_location_three"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DELIVER"
+            style="?attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+</LinearLayout>

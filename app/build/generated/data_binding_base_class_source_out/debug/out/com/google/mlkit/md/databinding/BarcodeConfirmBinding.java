@@ -22,9 +22,6 @@ public final class BarcodeConfirmBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView barcodeConfiemedContent;
-
-  @NonNull
   public final TextView barcodeConfiemedTitle;
 
   @NonNull
@@ -37,11 +34,9 @@ public final class BarcodeConfirmBinding implements ViewBinding {
   public final CardView barcodeFieldContainer;
 
   private BarcodeConfirmBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView barcodeConfiemedContent, @NonNull TextView barcodeConfiemedTitle,
-      @NonNull Button barcodeConfirmedBtn, @NonNull ImageView barcodeConfirmedCardviewImage,
-      @NonNull CardView barcodeFieldContainer) {
+      @NonNull TextView barcodeConfiemedTitle, @NonNull Button barcodeConfirmedBtn,
+      @NonNull ImageView barcodeConfirmedCardviewImage, @NonNull CardView barcodeFieldContainer) {
     this.rootView = rootView;
-    this.barcodeConfiemedContent = barcodeConfiemedContent;
     this.barcodeConfiemedTitle = barcodeConfiemedTitle;
     this.barcodeConfirmedBtn = barcodeConfirmedBtn;
     this.barcodeConfirmedCardviewImage = barcodeConfirmedCardviewImage;
@@ -75,12 +70,6 @@ public final class BarcodeConfirmBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.barcode_confiemed_content;
-      TextView barcodeConfiemedContent = rootView.findViewById(id);
-      if (barcodeConfiemedContent == null) {
-        break missingId;
-      }
-
       id = R.id.barcode_confiemed_title;
       TextView barcodeConfiemedTitle = rootView.findViewById(id);
       if (barcodeConfiemedTitle == null) {
@@ -105,9 +94,8 @@ public final class BarcodeConfirmBinding implements ViewBinding {
         break missingId;
       }
 
-      return new BarcodeConfirmBinding((LinearLayout) rootView, barcodeConfiemedContent,
-          barcodeConfiemedTitle, barcodeConfirmedBtn, barcodeConfirmedCardviewImage,
-          barcodeFieldContainer);
+      return new BarcodeConfirmBinding((LinearLayout) rootView, barcodeConfiemedTitle,
+          barcodeConfirmedBtn, barcodeConfirmedCardviewImage, barcodeFieldContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

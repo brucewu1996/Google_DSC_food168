@@ -2,9 +2,10 @@
   <library name="Gradle: com.google.mlkit:common:17.1.1@aar">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c82ff224692e56f247c6d10c47d8824e/transformed/jetified-common-17.1.1/res" />
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/3be06a9318f460609855f0a448e07f8c/transformed/jetified-common-17.1.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/3be06a9318f460609855f0a448e07f8c/transformed/jetified-common-17.1.1/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/3be06a9318f460609855f0a448e07f8c/transformed/jetified-common-17.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4726b772770eb5477e48af173d6b535a/transformed/jetified-common-17.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4726b772770eb5477e48af173d6b535a/transformed/jetified-common-17.1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/4726b772770eb5477e48af173d6b535a/transformed/jetified-common-17.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.mlkit/common/17.1.1/da30d3248e4348162a9fe4bd66a419732fc1de77/common-17.1.1-javadoc.jar!/" />

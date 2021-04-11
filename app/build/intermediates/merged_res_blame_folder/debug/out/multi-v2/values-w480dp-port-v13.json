@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bruce\\.gradle\\caches\\transforms-3\\1eddbe1bf3523c8004b1feaecb13bd91\\transformed\\material-1.2.1\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\bruce\\.gradle\\caches\\transforms-3\\140ebb4cf3f1f3f91243c5a3e809d811\\transformed\\material-1.2.1\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

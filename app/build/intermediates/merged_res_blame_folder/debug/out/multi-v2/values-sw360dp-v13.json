@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\bruce\\NucAction0329\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bruce\\.gradle\\caches\\transforms-3\\63ff508dbfdcbaac83a8fa74deb71f88\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\bruce\\.gradle\\caches\\transforms-3\\c4b09c1caa16b690b18f3ff7328881e3\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
